@@ -1,0 +1,29 @@
+.bg{
+    background-color: black;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.work_list{
+    max-width: 1500px;
+    margin: auto;
+    padding-top: 40px;
+}
+.line{
+    border: 1px solid white; 
+    height: 450px;
+    margin-top: 20px;
+}
+.line img{
+    float: left;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.line h2{
+    text-align: center;
+    color: white;
+}
+p{
+    color: white;
+    padding-top: 25px;
+}

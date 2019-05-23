@@ -1,0 +1,618 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #ccc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    background-color: #000;
+    display: flex;
+}
+
+#logo_c{
+    color: rgb(131, 0, 0);
+}
+
+.header_logo{
+    text-transform: uppercase;
+    color: #ccc;
+    font-weight: 800;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 36px;
+    padding: 15px;
+    margin-left: 7%;
+    letter-spacing: 0.2em;
+}
+
+nav{
+    margin-top: 56px;
+    margin-left: 29%;
+
+}
+
+.topnav a{
+    color: #ccc;
+    text-align: center;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 2px;
+
+}
+
+.topnav a:hover{
+    border-bottom: 3px solid rgb(131, 0, 0);
+}
+
+.topnav .icon{
+    display: none;
+}
+
+/*end header*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*start main*/
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+main .main_welcome{
+    background-color: #000;
+    text-align: center;
+    padding: 200px 0 410px 0;
+}
+main .main_welcome p{
+ color: #ccc;
+ font-size: 20px;
+ cursor: default;
+
+}
+main .main_welcome h1{
+    color: #ccc;
+    font-size: 44px;
+    font-weight: 100;
+    cursor: default;
+}
+main .main_welcome h1:after{
+    display: none;
+}
+.mycompany{
+    color: #ccc;
+    font-weight: bold;
+    color: rgb(131, 0, 0);
+    cursor: default;
+}
+.wrapper{
+    width: 76%;
+    margin: 0 auto;
+}
+main .main_about{
+    display: flex;
+    padding: 100px 0 100px 0;
+}
+
+.about_right{
+    margin-left: 175px;
+
+}
+.about_right h1{
+    display: inline-block;
+    border-bottom: 3px solid rgb(131, 0, 0);
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 100;
+}
+.about_right h1:after{
+    display: none;
+}
+.about_right p{
+    margin: 30px 0 50px 0;
+    color: rgb(68, 68, 68);
+}
+
+.about_right li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    list-style-type: none;
+    margin-top: 10px;
+}
+.about_us{
+    color: rgb(131, 0, 0);
+    font-weight: bold;
+}
+.mw-100{
+    min-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.team{
+    font-weight: bold;
+    color: rgb(131, 0, 0);
+    font-size: 35px;
+}
+#OUR{
+    font-weight: 100;
+    font-size: 35px;
+    
+    margin-bottom: 10%;
+}
+.main_team{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 80px 0 0 0;
+    color: #ccc;
+}
+.main_team h1{
+    font-size: 44px;
+    padding-bottom: 30px;
+}
+.team_cards{
+    padding-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.photo{
+    background-color: #ccc;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 20px auto;
+    border: 3px solid rgb(131, 0, 0);
+    box-shadow: 0px 0px 300px -11px rgba(255,255,255,1);
+
+}
+.img_team{
+    border-radius: 50%;
+}
+.team_cards{
+    display: flex;
+}
+.card{
+    width: 25%;
+    margin: 0 5% 0 5%;
+}
+.name{
+    color: rgb(131, 0, 0);
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.position{
+    padding-bottom: 10px;
+    border-bottom: 1px solid transparent;
+    font-weight: bold;
+}
+.hr{
+    display: none;
+}
+
+.about_position{
+    padding-top: 10px;
+    color: ghostwhite;
+}
+
+.position:after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    padding-top: 20px;
+    border-bottom: 3px solid rgb(131, 0, 0);
+}
+
+
+
+
+
+
+.wrapper p{
+    text-align: center;
+    
+}
+.OUR1{
+    font-weight: 100;
+    color: #000;
+    margin-top: 30px;
+    margin-bottom: 2%;
+    font-weight: 100;
+}
+.services_n{
+    color: rgb(131, 0, 0);
+    font-weight: bold;
+    text-align: center;
+}
+.services_cards{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+}
+.main_services h1{
+    text-align: center;
+    padding: 100px 0 30px 0;
+}
+.main_services p{
+    color: #6c6c6c;
+    margin-bottom: 100px;
+}
+.services_card h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main_services{
+    background-color: #ccc;
+}
+h4{
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact_form{
+    background-color: #000;
+}
+.contact_form h1{
+    text-align: center;
+    padding: 50px 0 20px 0;
+    color: #ccc;
+}
+.contact_form p{
+    text-align: left;
+}
+#p111{
+    text-align: center;
+    padding: 50px 0 50px 0;
+    color: #6c6c6c;
+}
+
+.contact_wrapper{
+    width: 759px;
+    margin: 0 auto;
+    color: #ccc;
+
+}
+.red{
+    color: red;
+}
+.form_inputs{
+    display: flex;
+    color: #ccc;
+}
+
+input{
+    width: 360px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+input:first-of-type{
+    margin-right: 38px;
+}
+textarea{
+    width: 100%;
+    height: 163px;
+}
+input, textarea{
+    border: 1px solid rgb(131, 0, 0);
+}
+.button_block{
+    display: flex;
+    justify-content: flex-end;
+}
+input[type=submit]{
+    width: 165px;
+    height: 40px;
+    background-color: rgb(131, 0, 0);
+    color: #ccc;
+    margin-right:0;
+    margin-top: 20px;
+}
+h1:after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    padding-top: 30px;
+    border-bottom: 3px solid rgb(131, 0, 0);
+}
+
+
+/*end main*/
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    padding: 30px 0 30px 0;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+
+}
+.social img{
+    margin-left: 12px;
+}
+.social img:hover{
+    border-radius: 50%;
+    background-color: rgb(131, 0, 0);    
+}
+
+
+
+
+#map{
+    width: 100%;
+    height: 500px;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*header media*/
+@media screen and (max-width: 1200px){
+    nav{
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width: 1375px){
+    nav{
+        margin-left: 3%;
+    }
+}
+@media screen and (max-width: 1105px){
+    nav{
+        margin-left: 10%;
+    }
+    
+}
+@media screen and (max-width: 1305px){
+    nav{
+        margin-left: 7%;
+    }
+@media screen and (max-width: 1010px){
+    /*nav*/
+    .topnav a{
+        display: none;
+    }
+    .topnav a.icon{
+        float: right;
+        margin-top: -17px;
+        display: block;
+        color: #ccc;
+        font-size: 25px;
+    }
+    nav{
+        width: 100%;
+    }
+    .topnav.responsive{
+        position: relative;
+        top: 50px;
+        left: -200px;
+    }
+    header .topnav.responsive{
+        height: 340px;
+    }
+    .topnav.responsive a.icon{
+        position: absolute;
+        top: -50px;
+        right: -200px;
+    }
+    .topnav.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+/*nav*/
+
+
+/*about*/
+
+    main .main_welcome{
+        padding: 50px 0 50px 0;
+    }
+    
+    main .main_welcome p{
+        font-size: 14px;
+
+    }
+    
+    main .main_welcome h1{
+        font-size: 25px;
+    }
+    .mw-100{
+        max-width: 100%;
+    }
+    .main_about{
+        flex-direction: column;
+    }
+    .about_right{
+        text-align: center;
+        margin-left: 0;
+    }
+    .about_right li{
+        text-align: left;
+    }
+    .about_right h1{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+/*about*/
+
+
+
+
+
+/*team_card*/
+    .team_cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+       margin-top: 3%;
+    }
+    .hr{
+        width: 80%;
+        margin: 30px 10%;
+        display: block;
+        opacity: 0.5;
+        border: 0; 
+        height: 1px; 
+        background-image: -webkit-linear-gradient(left, rgba(252, 237, 237, 0), rgb(131, 0, 0), rgba(0,0,0,0));
+        background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0)); 
+    background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0)); 
+    background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0)); 
+    box-shadow: 0px -2px 4px rgba(255, 0, 0, 0.75);
+    }
+}
+
+
+
+/*team_card*/
+
+
+
+
+
+
+.services_cards{
+    grid-template-columns: auto;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
